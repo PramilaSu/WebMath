@@ -9,9 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
- public class GeneralMath {
+	 public class GeneralMath {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 				try {
 						ChromeOptions options = new ChromeOptions();     
 						options.addArguments("--remote-allow-origins=*");
